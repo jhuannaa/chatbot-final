@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>COOKINGCHUCHUCHU</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=account_circle" />
+  <script src="https://kit.fontawesome.com/7a0c9e3170.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body id="main-container">
+  <header>
+    <div class="logo">Cook<span>Mate</span></div>
+    <nav>
+      <div class="user-menu">
+        <i class="fa-solid fa-user user-icon" onclick="toggleDropdown()"></i>
+        <div id="dropdown" class="dropdown-content">
+          <a href="#" onclick="toggleLoginModal()">Login</a>
+          <a href="#" onclick="toggleSignupModal()">Sign Up</a>
+        </div>
+      </div>
+
+      <a href="#home">HOME</a>
+      <a href="#recipes">RECIPES</a>
+
+
+      <button id="darkModeToggle" class="dark-mode-toggle">🌙</button>
+    </nav>
+  </header>
+
+  <div class="tagline">
+    SIMPLE RECIPES MADE FOR <strong>real. actual. everyday life.</strong>
+  </div>
+
+
+
+  <!-- Homepage Section -->
+  <section id="home-page" class="page">
+    <section class="recipes" id="recipe-list"></section>
+  </section>
+
+  <!-- Recipe Category Section -->
+  <section id="recipe-category-page" class="page" style="display: none;">
+    <div id="buttons-recipes">
+      <button class="category-button" data-category="appetizer" id="appetizers"
+        onclick="document.getElementById('recipe-category').scrollIntoView({behavior: 'smooth'});"><span>Appetizers</span></button>
+      <button class="category-button" data-category="main-course" id="main-course1"
+        onclick="document.getElementById('recipe-category').scrollIntoView({behavior: 'smooth'});"><span>Main
+          Course</span></button>
+      <button class="category-button" data-category="dessert" id="dessert1"
+        onclick="document.getElementById('recipe-category').scrollIntoView({behavior: 'smooth'});">
+        <span>Dessert</span></button>
+      <button class="category-button" data-category="beverages" id="beverages1"
+        onclick="document.getElementById('recipe-category').scrollIntoView({behavior: 'smooth'});"><span>Beverages</span></button>
+
+    </div>
+
+    <section class="recipes" id="recipe-category"></section>
+  </section>
+
+
+  <div id="recipe-list"></div>
+
+  <div id="loginModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="toggleLoginModal()">&times;</span>
+      <h2>Log In</h2>
+      <input type="text" id="loginUsername" placeholder="Username" />
+      <input type="password" id="loginPassword" placeholder="Password" />
+      <button onclick="handleLogin()">Log In</button>
+      <a href="#" onclick="toggleSignupModal()">Don't have an account?</a>
+      <p id="loginStatus" style="margin-top: 1rem;"></p>
+    </div>
+  </div>
+
+  <div id="signupModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="toggleSignupModal()">&times;</span>
+      <h2>Sign Up</h2>
+      <input type="text" id="signupName" placeholder="Full Name" />
+      <input type="text" id="signupUsername" placeholder="Username" />
+      <input type="password" id="signupPassword" placeholder="Password" />
+      <button onclick="handleSignup()">Sign Up</button>
+      <p id="signupStatus" style="margin-top: 1rem;"></p>
+    </div>
+  </div>
+
+
+  <button class="chat-button" onclick="toggleChat()">💬</button>
+
+  <div class="chat-window" id="chatWindow">
+    <div class="chat-header">Chatling Bot</div>
+    <div class="chat-messages" id="chatMessages">
+      <div class="message bot-message">Hi, how can I help you today?</div>
+    </div>
+    <div class="chat-input">
+      <input type="text" id="userInput" placeholder="Type your message here..." />
+      <button onclick="sendMessage()">➤</button>
+    </div>
+  </div>
+
+   <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+
+</html>

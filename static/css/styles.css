@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Calligraffitti&family=Cutive&family=Dancing+Script:wght@400..700&family=Italianno&family=Lexend:wght@700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mr+De+Haviland&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Qwigley&family=Roboto+Slab:wght@100..900&family=Sigmar&family=Sriracha&display=swap');
+
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+  color: #333;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  border-bottom: 1px solid #ffffff;
+  background-image: url('/static/images/header.jpg');
+}
+
+header .logo {
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+header .logo span {
+  color: #d8822b;
+  font-weight: bold;
+}
+
+.logo {
+  color: rgb(255, 255, 255);
+}
+
+nav a {
+  margin-left: 1.5rem;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.tagline {
+  text-align: center;
+  font-size: 1.3rem;
+  padding: 2rem 1rem;
+  font-style: italic;
+  color: #533110;
+}
+
+/* The main container that holds all category sections */
+#recipe-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+/* Each category block (like Main Course, Dessert) */
+.category-section {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Category title styling */
+.category-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #333;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 0.5rem;
+}
+
+/* Keep this single copy */
+#recipe-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.category-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.category-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #333;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 0.5rem;
+}
+
+.recipes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.recipe-card {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s;
+  background: white;
+  margin-bottom: 1.5rem;
+}
+
+.recipe-card:hover {
+  transform: scale(1.02);
+}
+
+.recipe-card img {
+  width: 100%;
+  display: block;
+}
+
+.page {
+  display: none;
+  overflow: hidden;
+  /* Hide all by default */
+}
+
+#home-page {
+  display: block;
+  /* Show only home page initially */
+}
+
+#buttons-recipes {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 550px;
+  gap: 5px;
+
+
+}
+
+#buttons-recipes button {
+  width: 40%;
+  border-radius: 20px;
+  border: none;
+
+}
+
+#beverages1,
+#appetizers,
+#main-course1,
+#dessert1 {
+  display: flex;
+  text-align: center;
+  position: relative;
+  height: 550px;
+  border: none;
+  padding: 0;
+  overflow: hidden;
+}
+
+#dessert1::before {
+  background-image: url('https://www.simplotfoods.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F0dkgxhks0leg%2F2W0e0i39df3qb9O05tsm8W%2F877bbaef4e6158eef162496144faf2f5%2FTF_20FW_22_20Dessert_20Collection_498.jpg%3Ffm%3Dwebp&w=3840&q=75');
+}
+
+#main-course1::before {
+  background-image: url('https://i0.wp.com/thegoodlifefrance.com/wp-content/uploads/2024/11/stead-and-red-wine-sauce.webp?fit=800%2C600&ssl=1');
+}
+
+#appetizers::before {
+  background-image: url('https://hips.hearstapps.com/hmg-prod/images/easy-appetizers-chorizo-queso-potato-skins-ghk-0218-1567625916.jpg?crop=0.886xw:0.888xh;0.114xw,0.0102xh&resize=980:*')
+}
+
+#beverages1::before {
+  background-image: url('https://www.jbtc.com/foodtech/wp-content/uploads/sites/2/2024/05/Juice-and-Beverage.webp');
+}
+
+/* Blurred background as a pseudo-element */
+#beverages1::before,
+#appetizers::before,
+#main-course1::before,
+#dessert1::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  filter: blur(2px);
+  z-index: 0;
+}
+
+/* Span content above the blurred background */
+#beverages1 span,
+#appetizers span,
+#main-course1 span,
+#dessert1 span {
+  position: absolute;
+  text-align: center;
+  z-index: 1;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-family: "Italianno", cursive;
+  font-weight: 500;
+  font-style: normal;
+
+}
+
+#dessert1 span {
+  font-size: 110px;
+  top: 40%;
+  left: 20%;
+}
+
+#main-course1 span {
+  font-size: 100px;
+  top: 40%;
+  left: 5%;
+}
+
+#appetizers span {
+  font-size: 100px;
+  top: 40%;
+  left: 15%;
+}
+
+#beverages1 span {
+  font-size: 100px;
+  top: 40%;
+  left: 20%;
+}
+
+#beverages1:hover,
+#appetizers:hover,
+#main-course1:hover,
+#dessert1:hover {
+  opacity: 0.8;
+  transform: scale(0.9);
+  transition: 1s ease;
+}
+
+
+
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+.chat-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #9e5f1f;
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  color: white;
+  font-size: 28px;
+  cursor: pointer;
+  z-index: 999;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.chat-window {
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  width: 400px;
+  max-height: 500px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  display: none;
+  flex-direction: column;
+  z-index: 1000;
+}
+
+.chat-header {
+  background-color: #9e5f1f;
+  color: white;
+  padding: 12px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.chat-messages {
+  padding: 10px;
+  height: 300px;
+  overflow-y: auto;
+  background: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.message {
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 75%;
+}
+
+.bot-message {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  align-self: flex-start;
+}
+
+.user-message {
+  background-color: #9e5f1f;
+  color: white;
+  align-self: flex-end;
+}
+
+.chat-input {
+  display: flex;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  gap: 10px;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.chat-input button {
+  background-color: #9e5f1f;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+body.dark-mode .recipe-card {
+  background: #1e1e1e;
+  color: #e0e0e0;
+}
+
+body.dark-mode header,
+body.dark-mode .chat-window {
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+body.dark-mode .chat-button {
+  background-color: #555;
+}
+
+body.dark-mode .user-message {
+  background-color: #4a4a9f;
+}
+
+body.dark-mode .bot-message {
+  background-color: #2a2a2a;
+}
+
+.dark-mode-toggle {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-left: auto;
+  padding: 0.5rem;
+  color: inherit;
+}
+
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 99;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: 10% auto;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 300px;
+  position: relative;
+  text-align: center;
+}
+
+.modal-content input {
+  display: block;
+  width: 90%;
+  margin: 0.5rem auto;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.modal-content button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #9e5f1f;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.close-btn {
+  position: absolute;
+  right: 1rem;
+  top: 0.5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+
+body.dark-mode .modal-content {
+  background-color: #1e1e1e;
+  color: #fff;
+}
+
+body.dark-mode .modal-content input {
+  background-color: #333;
+  color: white;
+  border: 1px solid #555;
+}
+
+.user-menu {
+  position: relative;
+  display: inline-block;
+}
+
+.user-icon {
+  font-size: 20px;
+  color: red;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: white;
+  min-width: 130px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 10px 15px;
+  margin: 0;
+  text-decoration: none;
+  color: #333;
+  transition: background 0.2s;
+}
+
+.dropdown-content a:hover {
+  background-color: #f0f0f0;
+}
+
+/* Show dropdown on hover */
+.user-menu:hover .dropdown-content {
+  display: block;
+}

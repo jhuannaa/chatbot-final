@@ -1,0 +1,1587 @@
+[
+    {
+        "category": "main-course",
+        "comment": "FRIED CHICKEN",
+        "image": "friedchicken.jpg",
+        "recipe_name": "Filipino Fried Chicken",
+        "ingredients": [
+            {
+                "item": "Chicken pieces",
+                "quantity": "1 kg",
+                "notes": "Drumsticks, thighs, or your choice"
+            },
+            {
+                "item": "Garlic",
+                "quantity": "5 cloves",
+                "notes": "Minced"
+            },
+            {
+                "item": "Soy sauce",
+                "quantity": "1/4 cup"
+            },
+            {
+                "item": "Calamansi juice",
+                "quantity": "1/4 cup",
+                "notes": "Or lemon juice"
+            },
+            {
+                "item": "Salt",
+                "quantity": "1 tsp"
+            },
+            {
+                "item": "Black pepper",
+                "quantity": "1/2 tsp"
+            },
+            {
+                "item": "Water",
+                "quantity": "1/4 cup"
+            },
+            {
+                "item": "Flour",
+                "quantity": "1 cup",
+                "notes": "For coating"
+            },
+            {
+                "item": "Cornstarch",
+                "quantity": "1/2 cup",
+                "notes": "For extra crispiness"
+            },
+            {
+                "item": "Cooking oil",
+                "quantity": "Enough for deep frying"
+            }
+        ],
+        "instructions": [
+            "In a bowl, combine garlic, soy sauce, calamansi juice, salt, black pepper, and water.",
+            "Marinate the chicken pieces in the mixture for at least 1 hour, preferably overnight in the fridge.",
+            "In a separate bowl, mix flour and cornstarch.",
+            "Remove chicken from marinade and dredge each piece in the flour mixture until fully coated.",
+            "Heat cooking oil in a deep pan or wok over medium-high heat.",
+            "Deep fry the chicken pieces until golden brown and cooked through, about 10-15 minutes depending on size.",
+            "Remove chicken and drain on paper towels to remove excess oil.",
+            "Serve hot with your favorite dipping sauce."
+        ],
+        "servings": 4,
+        "prep_time": "10 minutes",
+        "marinate_time": "1 hour to overnight",
+        "cook_time": "15 minutes"
+    },
+    {
+        "category": "main-course",
+        "comment": "CALDERETA - classic Filipino beef stew",
+        "image": "caldereta.jpg",
+        "recipe_name": "Caldereta",
+        "ingredients": [
+            {
+                "item": "Beef chunks",
+                "quantity": "1 kg",
+                "notes": "Preferably chuck or brisket"
+            },
+            {
+                "item": "Potatoes",
+                "quantity": "3 pcs",
+                "notes": "Cut into chunks"
+            },
+            {
+                "item": "Carrots",
+                "quantity": "2 pcs",
+                "notes": "Sliced"
+            },
+            {
+                "item": "Tomato sauce",
+                "quantity": "1 cup",
+                "notes": ""
+            },
+            {
+                "item": "Liver spread",
+                "quantity": "1/2 cup",
+                "notes": "Optional, for richness"
+            },
+            {
+                "item": "Bell peppers",
+                "quantity": "1 cup",
+                "notes": "Chopped"
+            },
+            {
+                "item": "Green peas",
+                "quantity": "1/2 cup",
+                "notes": ""
+            },
+            {
+                "item": "Onions",
+                "quantity": "1 medium",
+                "notes": "Chopped"
+            },
+            {
+                "item": "Garlic",
+                "quantity": "3 cloves",
+                "notes": "Minced"
+            },
+            {
+                "item": "Cooking oil",
+                "quantity": "2 tbsp",
+                "notes": ""
+            },
+            {
+                "item": "Salt and pepper",
+                "quantity": "to taste",
+                "notes": ""
+            }
+        ]
+    },
+    {
+        "category": "main-course",
+        "comment": "ADOBO - the most iconic Filipino dish",
+        "image": "adobo.jpg",
+        "recipe_name": "Adobo",
+        "ingredients": [
+            {
+                "item": "Chicken or Pork",
+                "quantity": "1 kg",
+                "notes": "Cut into chunks"
+            },
+            {
+                "item": "Soy sauce",
+                "quantity": "1/2 cup"
+            },
+            {
+                "item": "Vinegar",
+                "quantity": "1/2 cup"
+            },
+            {
+                "item": "Garlic",
+                "quantity": "6 cloves",
+                "notes": "Crushed"
+            },
+            {
+                "item": "Bay leaves",
+                "quantity": "2 pcs"
+            },
+            {
+                "item": "Peppercorns",
+                "quantity": "1 tsp"
+            },
+            {
+                "item": "Water",
+                "quantity": "1/2 cup"
+            }
+        ]
+    },
+    {
+        "category": "main-course",
+        "comment": "SINIGANG",
+        "image": "sinigang.jpg",
+        "recipe_name": "Sinigang",
+        "ingredients": [
+            {
+                "item": "Pork belly or ribs",
+                "quantity": "1 kg"
+            },
+            {
+                "item": "Water",
+                "quantity": "6 cups"
+            },
+            {
+                "item": "Tamarind mix",
+                "quantity": "1 packet",
+                "notes": "Or fresh tamarind"
+            },
+            {
+                "item": "Tomatoes",
+                "quantity": "3 pcs",
+                "notes": "Quartered"
+            },
+            {
+                "item": "Onion",
+                "quantity": "1 large",
+                "notes": "Sliced"
+            },
+            {
+                "item": "Kangkong",
+                "quantity": "1 bunch"
+            },
+            {
+                "item": "Radish",
+                "quantity": "1 pc",
+                "notes": "Sliced"
+            },
+            {
+                "item": "String beans",
+                "quantity": "1 cup"
+            }
+        ]
+    },
+    {
+        "category": "main-course",
+        "comment": "LECHON - crispy roasted whole pork",
+        "image": "lechon.jpg",
+        "recipe_name": "Lechon",
+        "ingredients": [
+            {
+                "item": "Whole pig",
+                "quantity": "1 whole",
+                "notes": "Cleaned and prepared"
+            },
+            {
+                "item": "Lemongrass",
+                "quantity": "1 bunch",
+                "notes": "For stuffing"
+            },
+            {
+                "item": "Salt",
+                "quantity": "As needed"
+            },
+            {
+                "item": "Black pepper",
+                "quantity": "As needed"
+            },
+            {
+                "item": "Garlic",
+                "quantity": "1 bulb",
+                "notes": "Crushed"
+            }
+        ]
+    },
+    {
+        "category": "main-course",
+        "comment": "KARE-KARE - rich peanut stew",
+        "image": "karekare.jpg",
+        "recipe_name": "Kare-Kare",
+        "ingredients": [
+            {
+                "item": "Oxtail",
+                "quantity": "1 kg"
+            },
+            {
+                "item": "Peanut butter",
+                "quantity": "1 cup"
+            },
+            {
+                "item": "Bagoong (fermented shrimp paste)",
+                "quantity": "To serve"
+            },
+            {
+                "item": "Banana blossom",
+                "quantity": "1 cup"
+            },
+            {
+                "item": "Eggplant",
+                "quantity": "2 pcs",
+                "notes": "Sliced"
+            },
+            {
+                "item": "String beans",
+                "quantity": "1 cup"
+            },
+            {
+                "item": "Ground rice",
+                "quantity": "2 tbsp",
+                "notes": "To thicken sauce"
+            }
+        ]
+    },
+    {
+        "category": "main-course",
+        "comment": "PANCIT CANTON - Filipino stir-fried noodles",
+        "image": "pancitcanton.jpg",
+        "recipe_name": "Pancit Canton",
+        "ingredients": [
+            {
+                "item": "Pancit canton noodles",
+                "quantity": "500g"
+            },
+            {
+                "item": "Chicken or pork",
+                "quantity": "200g",
+                "notes": "Sliced thinly"
+            },
+            {
+                "item": "Shrimp",
+                "quantity": "100g",
+                "notes": "Optional"
+            },
+            {
+                "item": "Cabbage",
+                "quantity": "1 cup",
+                "notes": "Shredded"
+            },
+            {
+                "item": "Carrots",
+                "quantity": "1 pc",
+                "notes": "Julienned"
+            },
+            {
+                "item": "Soy sauce",
+                "quantity": "1/4 cup"
+            },
+            {
+                "item": "Garlic and onions",
+                "quantity": "To taste"
+            }
+        ]
+    },
+    {
+        "category": "main-course",
+        "comment": "PANCIT MALABON - thick noodles with seafood sauce",
+        "image": "pancitmalabon.jpg",
+        "recipe_name": "Pancit Malabon",
+        "ingredients": [
+            {
+                "item": "Thick rice noodles",
+                "quantity": "500g"
+            },
+            {
+                "item": "Shrimp",
+                "quantity": "250g",
+                "notes": "Boiled and peeled"
+            },
+            {
+                "item": "Smoked fish flakes (tinapa)",
+                "quantity": "1/2 cup"
+            },
+            {
+                "item": "Annatto oil",
+                "quantity": "2 tbsp"
+            },
+            {
+                "item": "Garlic",
+                "quantity": "4 cloves",
+                "notes": "Minced"
+            },
+            {
+                "item": "Chopped hard-boiled eggs",
+                "quantity": "2 pcs"
+            },
+            {
+                "item": "Crushed chicharon",
+                "quantity": "1/2 cup",
+                "notes": "Optional topping"
+            }
+        ]
+    },
+    {
+        "category": "main-course",
+        "comment": "PANCIT PALABOK - savory orange noodle dish",
+        "image": "pancitpalabok.jpg",
+        "recipe_name": "Pancit Palabok",
+        "ingredients": [
+            {
+                "item": "Thin rice noodles",
+                "quantity": "500g"
+            },
+            {
+                "item": "Ground pork",
+                "quantity": "200g"
+            },
+            {
+                "item": "Shrimp",
+                "quantity": "200g",
+                "notes": "Boiled and chopped"
+            },
+            {
+                "item": "Annatto powder",
+                "quantity": "1 tbsp",
+                "notes": "For color"
+            },
+            {
+                "item": "Fish sauce",
+                "quantity": "2 tbsp"
+            },
+            {
+                "item": "Garlic",
+                "quantity": "4 cloves",
+                "notes": "Minced"
+            },
+            {
+                "item": "Boiled eggs",
+                "quantity": "2 pcs",
+                "notes": "Sliced"
+            },
+            {
+                "item": "Crushed chicharon",
+                "quantity": "1/2 cup"
+            }
+        ]
+    },
+    {
+        "category":"dessert",
+        "comment": "HALO-HALO - Filipino shaved ice dessert",
+        "image": "halohalo.jpg",
+        "recipe_name": "Halo-Halo",
+        "ingredients": [
+            {
+                "item": "Shaved ice",
+                "quantity": "2 cups"
+            },
+            {
+                "item": "Evaporated milk",
+                "quantity": "1/2 cup"
+            },
+            {
+                "item": "Sweetened beans",
+                "quantity": "1/2 cup",
+                "notes": "Kidney or mung beans"
+            },
+            {
+                "item": "Nata de coco",
+                "quantity": "1/4 cup"
+            },
+            {
+                "item": "Kaong",
+                "quantity": "1/4 cup"
+            },
+            {
+                "item": "Ube halaya",
+                "quantity": "2 tbsp"
+            },
+            {
+                "item": "Leche flan",
+                "quantity": "1 slice"
+            },
+            {
+                "item": "Jackfruit strips",
+                "quantity": "1/4 cup"
+            },
+            {
+                "item": "Pinipig or cornflakes",
+                "quantity": "2 tbsp",
+                "notes": "Topping"
+            }
+        ]
+    },
+    {
+        "category": "main-course",
+        "comment": "LAING - spicy coconut gabi leaves dish",
+        "image": "laing.jpg",
+        "recipe_name": "Laing",
+        "ingredients": [
+            {
+                "item": "Dried taro leaves",
+                "quantity": "3 cups"
+            },
+            {
+                "item": "Coconut milk",
+                "quantity": "2 cups"
+            },
+            {
+                "item": "Coconut cream",
+                "quantity": "1 cup"
+            },
+            {
+                "item": "Dried fish or shrimp",
+                "quantity": "1/2 cup",
+                "notes": "Optional"
+            },
+            {
+                "item": "Garlic",
+                "quantity": "4 cloves",
+                "notes": "Minced"
+            },
+            {
+                "item": "Onion",
+                "quantity": "1 pc",
+                "notes": "Chopped"
+            },
+            {
+                "item": "Ginger",
+                "quantity": "1 thumb",
+                "notes": "Sliced"
+            },
+            {
+                "item": "Red chili",
+                "quantity": "2 pcs",
+                "notes": "Optional for spice"
+            },
+            {
+                "item": "Salt and pepper",
+                "quantity": "To taste"
+            }
+        ]
+    },
+    {
+        "category": "main-course",
+        "comment": "LUMPIANG SHANGHAI - crispy fried meat spring rolls",
+        "image": "lumpiangshang.jpg",
+        "recipe_name": "Lumpiang Shanghai",
+        "ingredients": [
+            {
+                "item": "Ground pork",
+                "quantity": "500g"
+            },
+            {
+                "item": "Carrot",
+                "quantity": "1 pc",
+                "notes": "Finely grated"
+            },
+            {
+                "item": "Onion",
+                "quantity": "1 small",
+                "notes": "Chopped"
+            },
+            {
+                "item": "Garlic",
+                "quantity": "3 cloves",
+                "notes": "Minced"
+            },
+            {
+                "item": "Egg",
+                "quantity": "1 pc"
+            },
+            {
+                "item": "Salt and pepper",
+                "quantity": "To taste"
+            },
+            {
+                "item": "Spring roll wrappers",
+                "quantity": "20 pcs"
+            },
+            {
+                "item": "Cooking oil",
+                "quantity": "For frying"
+            }
+        ]
+    },
+    {
+         "category": "main-course",
+        "comment": "LUMPIANG SARIWA - fresh spring rolls with peanut sauce",
+        "image": "lumpiasar.jpg",
+        "recipe_name": "Lumpiang Sariwa",
+        "ingredients": [
+            {
+                "item": "Lettuce leaves",
+                "quantity": "10 pcs"
+            },
+            {
+                "item": "Carrots",
+                "quantity": "2 pcs",
+                "notes": "Julienned"
+            },
+            {
+                "item": "Sweet potato",
+                "quantity": "1 pc",
+                "notes": "Julienned"
+            },
+            {
+                "item": "Green beans",
+                "quantity": "1 cup",
+                "notes": "Sliced"
+            },
+            {
+                "item": "Garlic",
+                "quantity": "4 cloves",
+                "notes": "Minced"
+            },
+            {
+                "item": "Tofu",
+                "quantity": "1 cup",
+                "notes": "Fried and crumbled"
+            },
+            {
+                "item": "Fresh lumpia wrappers",
+                "quantity": "10 pcs"
+            },
+            {
+                "item": "Peanut sauce",
+                "quantity": "To serve"
+            }
+        ]
+    },
+    {
+        "category": "main-course",
+        "comment": "BISTEK TAGALOG - Filipino beef steak with soy and calamansi",
+        "image": "bistektagalog.jpg",
+        "recipe_name": "Bistek Tagalog",
+        "ingredients": [
+            {
+                "item": "Beef sirloin",
+                "quantity": "500g",
+                "notes": "Thinly sliced"
+            },
+            {
+                "item": "Soy sauce",
+                "quantity": "1/4 cup"
+            },
+            {
+                "item": "Calamansi juice",
+                "quantity": "1/4 cup",
+                "notes": "Or lemon juice"
+            },
+            {
+                "item": "Onions",
+                "quantity": "2 pcs",
+                "notes": "Sliced into rings"
+            },
+            {
+                "item": "Garlic",
+                "quantity": "3 cloves",
+                "notes": "Minced"
+            },
+            {
+                "item": "Black pepper",
+                "quantity": "1 tsp"
+            },
+            {
+                "item": "Cooking oil",
+                "quantity": "2 tbsp"
+            }
+        ]
+    },
+    {
+        "category": "main-course",
+        "comment": "DINUGUAN - savory pork blood stew",
+        "image": "dinuguan.jpg",
+        "recipe_name": "Dinuguan",
+        "ingredients": [
+            {
+                "item": "Pork belly or shoulder",
+                "quantity": "500g",
+                "notes": "Cut into cubes"
+            },
+            {
+                "item": "Pork blood",
+                "quantity": "1 cup",
+                "notes": "Fresh or frozen"
+            },
+            {
+                "item": "Vinegar",
+                "quantity": "1/2 cup"
+            },
+            {
+                "item": "Garlic",
+                "quantity": "5 cloves",
+                "notes": "Minced"
+            },
+            {
+                "item": "Onion",
+                "quantity": "1 pc",
+                "notes": "Chopped"
+            },
+            {
+                "item": "Bay leaf",
+                "quantity": "1 pc"
+            },
+            {
+                "item": "Green chili peppers",
+                "quantity": "2 pcs",
+                "notes": "Optional, for spice"
+            },
+            {
+                "item": "Salt and pepper",
+                "quantity": "To taste"
+            }
+        ]
+    },
+    {
+         "category": "dessert",
+        "comment": "BIBINGKA - traditional rice cake",
+        "image": "bibingka.jpg",
+        "recipe_name": "Bibingka",
+        "ingredients": [
+            {
+                "item": "Rice flour",
+                "quantity": "1 cup"
+            },
+            {
+                "item": "Coconut milk",
+                "quantity": "1 cup"
+            },
+            {
+                "item": "Sugar",
+                "quantity": "1/2 cup"
+            },
+            {
+                "item": "Eggs",
+                "quantity": "2 pcs"
+            },
+            {
+                "item": "Baking powder",
+                "quantity": "1 tbsp"
+            },
+            {
+                "item": "Salted egg slices",
+                "quantity": "Optional"
+            },
+            {
+                "item": "Grated cheese",
+                "quantity": "Optional"
+            },
+            {
+                "item": "Banana leaves",
+                "quantity": "For lining"
+            }
+        ]
+    },
+    {
+        "category": "main-course",
+        "comment": "PINAKBET - mixed vegetable stew with bagoong",
+        "image": "pinakbet.jpg",
+        "recipe_name": "Pinakbet",
+        "ingredients": [
+            {
+                "item": "Eggplant",
+                "quantity": "2 pcs",
+                "notes": "Sliced"
+            },
+            {
+                "item": "Bitter melon (ampalaya)",
+                "quantity": "1 pc",
+                "notes": "Sliced"
+            },
+            {
+                "item": "Squash",
+                "quantity": "1 cup",
+                "notes": "Cubed"
+            },
+            {
+                "item": "Okra",
+                "quantity": "1 cup"
+            },
+            {
+                "item": "Tomatoes",
+                "quantity": "2 pcs",
+                "notes": "Chopped"
+            },
+            {
+                "item": "Onion",
+                "quantity": "1 pc",
+                "notes": "Chopped"
+            },
+            {
+                "item": "Bagoong (fermented shrimp paste)",
+                "quantity": "2 tbsp"
+            }
+        ]
+    },
+    {
+        "category": "main-course",
+        "comment": "LONGGANISA - sweet or garlicky Filipino sausage",
+        "image": "longganisa.jpg",
+        "recipe_name": "Longganisa",
+        "ingredients": [
+            {
+                "item": "Ground pork",
+                "quantity": "1 kg"
+            },
+            {
+                "item": "Brown sugar",
+                "quantity": "1/2 cup"
+            },
+            {
+                "item": "Vinegar",
+                "quantity": "1/4 cup"
+            },
+            {
+                "item": "Garlic",
+                "quantity": "6 cloves",
+                "notes": "Minced"
+            },
+            {
+                "item": "Salt",
+                "quantity": "1 tbsp"
+            },
+            {
+                "item": "Ground pepper",
+                "quantity": "1 tsp"
+            },
+            {
+                "item": "Hog casing",
+                "quantity": "Optional",
+                "notes": "For traditional form"
+            }
+        ]
+    },
+    {
+        "category": "main-course",
+        "comment": "BULALO - beef marrow bone soup",
+        "image": "bulalo.jpg",
+        "recipe_name": "Bulalo",
+        "ingredients": [
+            {
+                "item": "Beef shank with marrow",
+                "quantity": "1 kg"
+            },
+            {
+                "item": "Corn on the cob",
+                "quantity": "2 pcs",
+                "notes": "Cut into chunks"
+            },
+            {
+                "item": "Potatoes",
+                "quantity": "2 pcs",
+                "notes": "Cubed"
+            },
+            {
+                "item": "Cabbage",
+                "quantity": "1 small head",
+                "notes": "Quartered"
+            },
+            {
+                "item": "Onion",
+                "quantity": "1 pc",
+                "notes": "Sliced"
+            },
+            {
+                "item": "Fish sauce",
+                "quantity": "2 tbsp"
+            },
+            {
+                "item": "Peppercorn",
+                "quantity": "1 tsp"
+            },
+            {
+                "item": "Water",
+                "quantity": "Enough to cover meat"
+            }
+        ]
+    },
+    {
+        "category": "main-course",
+        "comment": "ARROZ CALDO - Filipino rice porridge",
+        "image": "arroz.jpg",
+        "recipe_name": "Arroz Caldo",
+        "ingredients": [
+            {
+                "item": "Glutinous rice",
+                "quantity": "1 cup"
+            },
+            {
+                "item": "Chicken (preferably wings or thighs)",
+                "quantity": "500g"
+            },
+            {
+                "item": "Garlic",
+                "quantity": "6 cloves",
+                "notes": "Minced and toasted"
+            },
+            {
+                "item": "Ginger",
+                "quantity": "1 thumb",
+                "notes": "Sliced"
+            },
+            {
+                "item": "Onion",
+                "quantity": "1 pc",
+                "notes": "Chopped"
+            },
+            {
+                "item": "Fish sauce",
+                "quantity": "2 tbsp"
+            },
+            {
+                "item": "Hard-boiled eggs",
+                "quantity": "2 pcs",
+                "notes": "Optional topping"
+            },
+            {
+                "item": "Calamansi or lemon",
+                "quantity": "For serving"
+            }
+        ]
+    },
+    {
+        "category": "main-course",
+        "comment": "TOCINO - sweet cured pork",
+        "image": "tocino.jpg",
+        "recipe_name": "Tocino",
+        "ingredients": [
+            {
+                "item": "Pork belly",
+                "quantity": "1 kg",
+                "notes": "Sliced thin"
+            },
+            {
+                "item": "Sugar",
+                "quantity": "1/2 cup"
+            },
+            {
+                "item": "Salt",
+                "quantity": "1 tbsp"
+            },
+            {
+                "item": "Pineapple juice",
+                "quantity": "1/4 cup"
+            },
+            {
+                "item": "Garlic",
+                "quantity": "4 cloves",
+                "notes": "Minced"
+            },
+            {
+                "item": "Food coloring",
+                "quantity": "Optional",
+                "notes": "Traditionally red"
+            }
+        ],
+        "steps": [
+            "In a bowl, combine sugar, salt, garlic, anise wine or pineapple juice, and red food coloring (if using).",
+            "Add the pork slices and mix thoroughly to coat evenly.",
+            "Transfer to a container, cover, and refrigerate for at least 2–3 days to cure.",
+            "To cook, place cured pork in a pan with a little water.",
+            "Let the water evaporate, then add oil and fry until meat is caramelized and tender.",
+            "Serve hot with garlic rice and egg for a classic breakfast."
+        ]
+    },
+    {
+        "category": "main-course",
+        "comment": "CHICKEN INASAL - grilled marinated chicken",
+        "image": "chickeninasal.jpg",
+        "recipe_name": "Chicken Inasal",
+        "ingredients": [
+            {
+                "item": "Chicken quarters or thighs",
+                "quantity": "1 kg"
+            },
+            {
+                "item": "Vinegar",
+                "quantity": "1/4 cup"
+            },
+            {
+                "item": "Calamansi juice",
+                "quantity": "1/4 cup"
+            },
+            {
+                "item": "Garlic",
+                "quantity": "5 cloves",
+                "notes": "Minced"
+            },
+            {
+                "item": "Lemongrass",
+                "quantity": "2 stalks",
+                "notes": "Crushed"
+            },
+            {
+                "item": "Annatto oil",
+                "quantity": "3 tbsp",
+                "notes": "For basting"
+            },
+            {
+                "item": "Salt and pepper",
+                "quantity": "To taste"
+            }
+        ],
+        "steps": [
+            "In a bowl, combine vinegar, calamansi juice, garlic, lemongrass, salt, and pepper.",
+            "Marinate the chicken in the mixture for at least 1 hour or overnight for better flavor.",
+            "Preheat your grill to medium heat.",
+            "Grill the chicken, turning occasionally, until cooked through and skin is charred and crispy.",
+            "Baste with annatto oil while grilling to enhance flavor and color.",
+            "Serve hot with steamed rice and dipping sauce if desired."
+        ]
+    },
+    {
+        "category": "main-course",
+        "comment": "MENUDO - Filipino pork stew with tomato sauce",
+        "image": "menudo.jpg",
+        "recipe_name": "Menudo",
+        "ingredients": [
+            {
+                "item": "Pork shoulder",
+                "quantity": "500g",
+                "notes": "Cubed"
+            },
+            {
+                "item": "Pork liver",
+                "quantity": "200g",
+                "notes": "Cubed"
+            },
+            {
+                "item": "Potatoes",
+                "quantity": "2",
+                "notes": "Cubed"
+            },
+            {
+                "item": "Carrots",
+                "quantity": "1",
+                "notes": "Cubed"
+            },
+            {
+                "item": "Tomato sauce",
+                "quantity": "1 cup"
+            },
+            {
+                "item": "Garlic",
+                "quantity": "3 cloves",
+                "notes": "Minced"
+            },
+            {
+                "item": "Onion",
+                "quantity": "1",
+                "notes": "Chopped"
+            },
+            {
+                "item": "Soy sauce",
+                "quantity": "2 tbsp"
+            },
+            {
+                "item": "Vinegar",
+                "quantity": "1 tbsp"
+            },
+            {
+                "item": "Salt and pepper",
+                "quantity": "To taste"
+            }
+        ],
+        "steps": [
+            "In a pan, sauté garlic and onion until fragrant.",
+            "Add pork and cook until lightly browned.",
+            "Add liver and cook for a few minutes.",
+            "Pour in soy sauce, vinegar, and tomato sauce. Simmer for 10 minutes.",
+            "Add potatoes and carrots. Cook until vegetables are tender.",
+            "Season with salt and pepper to taste.",
+            "Serve hot with rice."
+        ]
+    },
+    {
+        "category": "main-course",
+        "comment": "AFRITADA - Chicken or pork stew with tomato sauce and vegetables",
+        "image": "afritada.jpg",
+        "recipe_name": "Afritada",
+        "ingredients": [
+            {
+                "item": "Chicken",
+                "quantity": "1 kg",
+                "notes": "Cut into serving pieces"
+            },
+            {
+                "item": "Potatoes",
+                "quantity": "2",
+                "notes": "Cubed"
+            },
+            {
+                "item": "Carrots",
+                "quantity": "1",
+                "notes": "Sliced"
+            },
+            {
+                "item": "Bell peppers",
+                "quantity": "2",
+                "notes": "Sliced"
+            },
+            {
+                "item": "Tomato sauce",
+                "quantity": "1 cup"
+            },
+            {
+                "item": "Garlic",
+                "quantity": "4 cloves",
+                "notes": "Minced"
+            },
+            {
+                "item": "Onion",
+                "quantity": "1",
+                "notes": "Chopped"
+            },
+            {
+                "item": "Bay leaves",
+                "quantity": "2 pcs"
+            },
+            {
+                "item": "Salt and pepper",
+                "quantity": "To taste"
+            },
+            {
+                "item": "Cooking oil",
+                "quantity": "2 tbsp"
+            }
+        ],
+        "steps": [
+            "Heat oil in a pan and sauté garlic and onion.",
+            "Add chicken and cook until lightly browned.",
+            "Pour in tomato sauce and add bay leaves. Simmer for 15 minutes.",
+            "Add potatoes and carrots. Cook until tender.",
+            "Add bell peppers and simmer for another 5 minutes.",
+            "Season with salt and pepper.",
+            "Serve hot with steamed rice."
+        ]
+    },
+    {
+        "category": "main-course",
+        "comment": "AFRITADA - Chicken or pork stew with tomato sauce and vegetables",
+        "image": "afritada.jpg",
+        "recipe_name": "Afritada",
+        "ingredients": [
+            {
+                "item": "Chicken",
+                "quantity": "1 kg",
+                "notes": "Cut into serving pieces"
+            },
+            {
+                "item": "Potatoes",
+                "quantity": "2",
+                "notes": "Cubed"
+            },
+            {
+                "item": "Carrots",
+                "quantity": "1",
+                "notes": "Sliced"
+            },
+            {
+                "item": "Bell peppers",
+                "quantity": "2",
+                "notes": "Sliced"
+            },
+            {
+                "item": "Tomato sauce",
+                "quantity": "1 cup"
+            },
+            {
+                "item": "Garlic",
+                "quantity": "4 cloves",
+                "notes": "Minced"
+            },
+            {
+                "item": "Onion",
+                "quantity": "1",
+                "notes": "Chopped"
+            },
+            {
+                "item": "Bay leaves",
+                "quantity": "2 pcs"
+            },
+            {
+                "item": "Salt and pepper",
+                "quantity": "To taste"
+            },
+            {
+                "item": "Cooking oil",
+                "quantity": "2 tbsp"
+            }
+        ],
+        "steps": [
+            "Heat oil in a pan and sauté garlic and onion.",
+            "Add chicken and cook until lightly browned.",
+            "Pour in tomato sauce and add bay leaves. Simmer for 15 minutes.",
+            "Add potatoes and carrots. Cook until tender.",
+            "Add bell peppers and simmer for another 5 minutes.",
+            "Season with salt and pepper.",
+            "Serve hot with steamed rice."
+        ]
+    },
+    {
+        "category": "main-course",
+        "comment": "INIHAW NA LIEMPO - Grilled marinated pork belly",
+        "image": "inihawnaliempo.jpg",
+        "recipe_name": "Inihaw na Liempo",
+        "ingredients": [
+            {
+                "item": "Pork belly",
+                "quantity": "1 kg",
+                "notes": "Sliced into slabs"
+            },
+            {
+                "item": "Soy sauce",
+                "quantity": "1/2 cup"
+            },
+            {
+                "item": "Calamansi juice",
+                "quantity": "1/4 cup"
+            },
+            {
+                "item": "Garlic",
+                "quantity": "5 cloves",
+                "notes": "Minced"
+            },
+            {
+                "item": "Brown sugar",
+                "quantity": "2 tbsp"
+            },
+            {
+                "item": "Black pepper",
+                "quantity": "1 tsp",
+                "notes": "Freshly ground"
+            },
+            {
+                "item": "Salt",
+                "quantity": "1 tsp"
+            }
+        ],
+        "steps": [
+            "In a bowl, combine soy sauce, calamansi juice, garlic, brown sugar, salt, and pepper.",
+            "Add pork belly slices to the marinade and mix well. Marinate for at least 2 hours or overnight for best results.",
+            "Preheat your grill to medium heat.",
+            "Grill the pork belly until cooked through and slightly charred on both sides, basting with leftover marinade occasionally.",
+            "Slice into serving pieces and serve hot with rice and dipping sauce if desired."
+        ]
+    },
+    {
+        "category": "main-course",
+        "comment": "PAKSIW NA PATA - Pork hock stewed in vinegar and soy sauce with banana blossoms",
+        "image": "paksiwnapata.jpg",
+        "recipe_name": "Paksiw na Pata",
+        "ingredients": [
+            {
+                "item": "Pork hock (pata)",
+                "quantity": "1.5 kg",
+                "notes": "Cut into serving pieces"
+            },
+            {
+                "item": "Soy sauce",
+                "quantity": "1/2 cup"
+            },
+            {
+                "item": "Vinegar",
+                "quantity": "1/2 cup"
+            },
+            {
+                "item": "Brown sugar",
+                "quantity": "2 tbsp"
+            },
+            {
+                "item": "Garlic",
+                "quantity": "5 cloves",
+                "notes": "Crushed"
+            },
+            {
+                "item": "Onion",
+                "quantity": "1",
+                "notes": "Chopped"
+            },
+            {
+                "item": "Peppercorns",
+                "quantity": "1 tsp",
+                "notes": "Whole"
+            },
+            {
+                "item": "Bay leaves",
+                "quantity": "2 pcs"
+            },
+            {
+                "item": "Dried banana blossoms",
+                "quantity": "1/2 cup",
+                "notes": "Soaked in water"
+            },
+            {
+                "item": "Water",
+                "quantity": "3 cups"
+            },
+            {
+                "item": "Salt",
+                "quantity": "To taste"
+            }
+        ],
+        "steps": [
+            "In a large pot, combine pork hock, soy sauce, vinegar, garlic, onion, peppercorns, bay leaves, and water.",
+            "Bring to a boil, then lower heat and simmer until pork is tender (about 1.5 to 2 hours).",
+            "Add banana blossoms and brown sugar. Mix gently.",
+            "Simmer for another 10–15 minutes or until the sauce thickens slightly.",
+            "Adjust seasoning with salt if needed.",
+            "Serve hot with steamed rice."
+        ]
+    },
+    {
+        "category": "main-course",
+        "comment": "PAKSIW NA LECHON - Leftover roast pig stewed in vinegar, liver sauce, and spices",
+        "image": "paksiwnalechon.jpg",
+        "recipe_name": "Paksiw na Lechon",
+        "ingredients": [
+            {
+                "item": "Leftover lechon",
+                "quantity": "1 kg",
+                "notes": "Cut into pieces"
+            },
+            {
+                "item": "Lechon sauce (bottled or homemade liver sauce)",
+                "quantity": "1 cup"
+            },
+            {
+                "item": "Vinegar",
+                "quantity": "1/4 cup"
+            },
+            {
+                "item": "Soy sauce",
+                "quantity": "2 tbsp"
+            },
+            {
+                "item": "Garlic",
+                "quantity": "4 cloves",
+                "notes": "Minced"
+            },
+            {
+                "item": "Onion",
+                "quantity": "1",
+                "notes": "Chopped"
+            },
+            {
+                "item": "Bay leaves",
+                "quantity": "2 pcs"
+            },
+            {
+                "item": "Brown sugar",
+                "quantity": "1 tbsp"
+            },
+            {
+                "item": "Water",
+                "quantity": "2 cups"
+            },
+            {
+                "item": "Salt and pepper",
+                "quantity": "To taste"
+            }
+        ],
+        "steps": [
+            "In a pot, sauté garlic and onion until soft.",
+            "Add the lechon pieces and sauté briefly.",
+            "Pour in water, vinegar, soy sauce, and lechon sauce. Stir well.",
+            "Add bay leaves and brown sugar.",
+            "Bring to a boil without stirring, then lower heat and simmer for 30–40 minutes until meat is tender and sauce is thickened.",
+            "Season with salt and pepper to taste.",
+            "Serve hot with steamed rice."
+        ]
+    },
+    {
+        "category": "main-course",
+        "comment": "PININYAHANG MANOK – Creamy chicken stew with pineapples and milk",
+        "image": "pininyahangmanok.jpg",
+        "recipe_name": "Pininyahang Manok",
+        "ingredients": [
+            {
+                "item": "Chicken",
+                "quantity": "1 kg",
+                "notes": "Cut into serving pieces"
+            },
+            {
+                "item": "Pineapple chunks (with juice)",
+                "quantity": "1 cup"
+            },
+            {
+                "item": "Evaporated milk",
+                "quantity": "1 cup"
+            },
+            {
+                "item": "Carrots",
+                "quantity": "1",
+                "notes": "Sliced"
+            },
+            {
+                "item": "Bell pepper",
+                "quantity": "1",
+                "notes": "Sliced"
+            },
+            {
+                "item": "Onion",
+                "quantity": "1",
+                "notes": "Chopped"
+            },
+            {
+                "item": "Garlic",
+                "quantity": "4 cloves",
+                "notes": "Minced"
+            },
+            {
+                "item": "Salt and pepper",
+                "quantity": "To taste"
+            },
+            {
+                "item": "Cooking oil",
+                "quantity": "2 tbsp"
+            }
+        ],
+        "steps": [
+            "Heat oil in a pan. Sauté garlic and onion until fragrant.",
+            "Add chicken and cook until lightly browned.",
+            "Pour in pineapple juice and evaporated milk. Bring to a boil.",
+            "Add pineapple chunks, carrots, and simmer until chicken is tender.",
+            "Add bell pepper and cook for another 5 minutes.",
+            "Season with salt and pepper to taste.",
+            "Serve hot with steamed rice."
+        ]
+    },
+    {
+        "category": "main-course",
+        "comment": "GINATAANG KALABASA AT SITAW – Squash and string beans cooked in coconut milk",
+        "image": "ginataangkalabasaatsitaw.jpg",
+        "recipe_name": "Ginataang Kalabasa at Sitaw",
+        "ingredients": [
+            {
+                "item": "Kalabasa (squash)",
+                "quantity": "2 cups",
+                "notes": "Cubed"
+            },
+            {
+                "item": "Sitaw (string beans)",
+                "quantity": "1 cup",
+                "notes": "Cut into 2-inch pieces"
+            },
+            {
+                "item": "Coconut milk",
+                "quantity": "2 cups"
+            },
+            {
+                "item": "Garlic",
+                "quantity": "4 cloves",
+                "notes": "Minced"
+            },
+            {
+                "item": "Onion",
+                "quantity": "1",
+                "notes": "Chopped"
+            },
+            {
+                "item": "Ginger",
+                "quantity": "1 thumb-size",
+                "notes": "Sliced"
+            },
+            {
+                "item": "Shrimp or dried fish (optional)",
+                "quantity": "1/2 cup"
+            },
+            {
+                "item": "Salt and pepper",
+                "quantity": "To taste"
+            },
+            {
+                "item": "Cooking oil",
+                "quantity": "1 tbsp"
+            }
+        ],
+        "steps": [
+            "Heat oil in a pan. Sauté garlic, onion, and ginger until aromatic.",
+            "Add shrimp or dried fish if using and sauté briefly.",
+            "Pour in coconut milk and bring to a gentle boil.",
+            "Add kalabasa and simmer for 5 minutes.",
+            "Add sitaw and cook until both vegetables are tender.",
+            "Season with salt and pepper to taste.",
+            "Serve hot with steamed rice."
+        ]
+    },
+    {
+        "category": "main-course",
+        "comment": "GINISANG MUNGGO – Sauteed mung beans with pork and leafy greens",
+        "image": "ginisangmunggo.jpg",
+        "recipe_name": "Ginisang Munggo",
+        "ingredients": [
+            {
+                "item": "Mung beans (munggo)",
+                "quantity": "1 cup",
+                "notes": "Washed and soaked"
+            },
+            {
+                "item": "Pork (belly or strips)",
+                "quantity": "200g",
+                "notes": "Optional"
+            },
+            {
+                "item": "Spinach or malunggay leaves",
+                "quantity": "1 cup"
+            },
+            {
+                "item": "Garlic",
+                "quantity": "4 cloves",
+                "notes": "Minced"
+            },
+            {
+                "item": "Onion",
+                "quantity": "1",
+                "notes": "Chopped"
+            },
+            {
+                "item": "Tomato",
+                "quantity": "1",
+                "notes": "Chopped"
+            },
+            {
+                "item": "Fish sauce",
+                "quantity": "1 tbsp"
+            },
+            {
+                "item": "Water",
+                "quantity": "4 cups"
+            },
+            {
+                "item": "Salt and pepper",
+                "quantity": "To taste"
+            },
+            {
+                "item": "Cooking oil",
+                "quantity": "1 tbsp"
+            }
+        ],
+        "steps": [
+            "Boil mung beans in water until soft (about 30–40 minutes). Set aside.",
+            "In a pan, heat oil and sauté garlic, onion, and tomato.",
+            "Add pork and cook until lightly browned.",
+            "Add boiled mung beans with its broth. Simmer for 10 minutes.",
+            "Add fish sauce and adjust seasoning with salt and pepper.",
+            "Stir in spinach or malunggay leaves. Simmer for 2 more minutes.",
+            "Serve hot with rice."
+        ]
+    },
+    {
+         "category": "dessert",
+        "comment": "TURON - Fried banana rolls with caramelized sugar and jackfruit",
+        "image": "turon.jpg",
+        "recipe_name": "Turon",
+        "ingredients": [
+            {
+                "item": "Saba bananas",
+                "quantity": "6 pcs",
+                "notes": "Sliced lengthwise"
+            },
+            {
+                "item": "Jackfruit strips",
+                "quantity": "1 cup"
+            },
+            {
+                "item": "Brown sugar",
+                "quantity": "1 cup"
+            },
+            {
+                "item": "Spring roll wrappers",
+                "quantity": "12 pcs"
+            },
+            {
+                "item": "Cooking oil",
+                "quantity": "For frying"
+            }
+        ],
+        "steps": [
+            "Place a slice of banana and a few jackfruit strips on a spring roll wrapper.",
+            "Sprinkle brown sugar over the fruit.",
+            "Fold the wrapper tightly, sealing the edges with a little water.",
+            "Heat cooking oil in a pan over medium heat.",
+            "Fry the rolls until golden brown and caramelized, turning occasionally.",
+            "Remove and drain excess oil on paper towels.",
+            "Serve warm as a sweet snack or dessert."
+        ]
+    },
+    {
+        "category": "dessert",
+        "comment": "LECHE FLAN - Filipino caramel custard dessert",
+        "image": "lecheflan.jpg",
+        "recipe_name": "Leche Flan",
+        "ingredients": [
+            {
+                "item": "Egg yolks",
+                "quantity": "10 pcs"
+            },
+            {
+                "item": "Condensed milk",
+                "quantity": "1 can (370 ml)"
+            },
+            {
+                "item": "Evaporated milk",
+                "quantity": "1 can (370 ml)"
+            },
+            {
+                "item": "Sugar",
+                "quantity": "1 cup",
+                "notes": "For caramel"
+            },
+            {
+                "item": "Vanilla extract",
+                "quantity": "1 tsp"
+            }
+        ],
+        "steps": [
+            "In a saucepan over low heat, melt sugar until it turns golden brown to make caramel.",
+            "Pour caramel into llanera or mold, swirling to coat the bottom evenly. Set aside to harden.",
+            "In a bowl, whisk egg yolks lightly.",
+            "Add condensed milk, evaporated milk, and vanilla extract. Mix well but avoid creating bubbles.",
+            "Pour the mixture through a strainer into the caramel-coated mold.",
+            "Cover with aluminum foil and steam over low heat for 30–40 minutes or until set. Alternatively, bake in a water bath at 350°F (175°C) for 45 minutes.",
+            "Let cool before refrigerating for at least 2 hours.",
+            "Unmold by running a knife around the edges and inverting onto a plate.",
+            "Serve chilled."
+        ]
+    }
+]
