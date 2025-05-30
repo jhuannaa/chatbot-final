@@ -51,7 +51,7 @@
                 "quantity": "Enough for deep frying"
             }
         ],
-        "instructions": [
+        "steps": [
             "In a bowl, combine garlic, soy sauce, calamansi juice, salt, black pepper, and water.",
             "Marinate the chicken pieces in the mixture for at least 1 hour, preferably overnight in the fridge.",
             "In a separate bowl, mix flour and cornstarch.",
@@ -60,15 +60,11 @@
             "Deep fry the chicken pieces until golden brown and cooked through, about 10-15 minutes depending on size.",
             "Remove chicken and drain on paper towels to remove excess oil.",
             "Serve hot with your favorite dipping sauce."
-        ],
-        "servings": 4,
-        "prep_time": "10 minutes",
-        "marinate_time": "1 hour to overnight",
-        "cook_time": "15 minutes"
+        ]
     },
     {
         "category": "main-course",
-        "comment": "CALDERETA - classic Filipino beef stew",
+        "comment": "CALDERETA",
         "image": "caldereta.jpg",
         "recipe_name": "Caldereta",
         "ingredients": [
@@ -127,6 +123,17 @@
                 "quantity": "to taste",
                 "notes": ""
             }
+        ],
+        "steps": [
+            "Heat oil in a pot and sauté garlic and onion until fragrant.",
+            "Add beef chunks and cook until browned on all sides.",
+            "Add tomato sauce and liver spread. Stir well.",
+            "Pour in enough water to cover the meat. Bring to a boil, then reduce heat.",
+            "Simmer covered for 1.5-2 hours or until meat is tender.",
+            "Add potatoes and carrots. Cook until vegetables are tender.",
+            "Add bell peppers and green peas. Cook for another 5 minutes.",
+            "Season with salt and pepper to taste.",
+            "Serve hot with steamed rice."
         ]
     },
     {
@@ -165,6 +172,13 @@
                 "item": "Water",
                 "quantity": "1/2 cup"
             }
+        ],
+        "steps": [
+            "In a pot, combine chicken/pork, soy sauce, vinegar, garlic, bay leaves, and peppercorns.",
+            "Bring to a boil without stirring.",
+            "Lower heat and simmer for 30 minutes or until meat is tender.",
+            "Add water if needed and continue cooking until sauce thickens.",
+            "Serve hot with rice."
         ]
     },
     {
@@ -209,6 +223,16 @@
                 "item": "String beans",
                 "quantity": "1 cup"
             }
+        ],
+        "steps": [
+            "Bring water to a boil in a pot.",
+            "Add onions and tomatoes, simmer for 2 minutes.",
+            "Add pork and cook until tender (about 30 minutes).",
+            "Add tamarind mix or fresh tamarind extract.",
+            "Add vegetables starting with the most firm (radish first, then string beans).",
+            "Add kangkong last and cook until just wilted.",
+            "Season with salt and pepper to taste.",
+            "Serve hot with rice and fish sauce on the side."
         ]
     },
     {
@@ -240,6 +264,17 @@
                 "quantity": "1 bulb",
                 "notes": "Crushed"
             }
+        ],
+        "steps": [
+            "Clean and prepare the pig thoroughly.",
+            "Make several deep incisions in the belly cavity.",
+            "Rub the cavity generously with salt, pepper, and crushed garlic.",
+            "Stuff with lemongrass stalks.",
+            "Sew up the cavity and truss the pig.",
+            "Roast on a spit over hot coals for 4-5 hours, rotating constantly.",
+            "Baste with oil during roasting to achieve crispy skin.",
+            "Let rest before chopping.",
+            "Serve with liver sauce."
         ]
     },
     {
@@ -278,6 +313,17 @@
                 "quantity": "2 tbsp",
                 "notes": "To thicken sauce"
             }
+        ],
+        "steps": [
+            "Boil oxtail in water with salt until tender (about 2-3 hours). Reserve the broth.",
+            "In a separate pot, sauté garlic and onions until fragrant.",
+            "Add the tenderized oxtail and cook for 2-3 minutes.",
+            "Add peanut butter and stir until well combined.",
+            "Pour in reserved broth, bring to a boil, then reduce heat to simmer.",
+            "Add ground rice to thicken the sauce, stirring constantly.",
+            "Add eggplant, banana blossom, and string beans. Cook until vegetables are tender.",
+            "Season with salt and pepper to taste.",
+            "Serve hot with bagoong (shrimp paste) on the side and steamed rice."
         ]
     },
     {
@@ -318,6 +364,15 @@
                 "item": "Garlic and onions",
                 "quantity": "To taste"
             }
+        ],
+        "steps": [
+            "Heat oil in a wok or large pan. Sauté garlic and onions until fragrant.",
+            "Add chicken/pork and shrimp (if using). Cook until meat changes color.",
+            "Add carrots and other vegetables. Stir-fry for 2-3 minutes.",
+            "Add noodles and soy sauce. Toss until well combined.",
+            "Add a little water if needed and cook until noodles are tender.",
+            "Season with salt and pepper to taste.",
+            "Serve hot with calamansi on the side."
         ]
     },
     {
@@ -357,6 +412,15 @@
                 "quantity": "1/2 cup",
                 "notes": "Optional topping"
             }
+        ],
+        "steps": [
+            "Cook noodles according to package instructions. Set aside.",
+            "Heat annatto oil in a pan. Sauté garlic until fragrant.",
+            "Add shrimp and cook until pink.",
+            "Add smoked fish flakes and stir.",
+            "Add cooked noodles and toss until well coated with the orange oil.",
+            "Top with chopped eggs and crushed chicharon.",
+            "Serve hot with calamansi."
         ]
     },
     {
@@ -401,6 +465,15 @@
                 "item": "Crushed chicharon",
                 "quantity": "1/2 cup"
             }
+        ],
+        "steps": [
+            "Cook noodles according to package instructions. Set aside.",
+            "In a pan, cook ground pork until browned.",
+            "Add shrimp and cook until pink.",
+            "Make sauce by combining annatto powder with fish sauce and water.",
+            "Pour sauce over noodles.",
+            "Top with boiled eggs, chicharon, and remaining ingredients.",
+            "Serve hot with calamansi wedges."
         ]
     },
     {
@@ -447,6 +520,15 @@
                 "quantity": "2 tbsp",
                 "notes": "Topping"
             }
+        ],
+        "steps": [
+            "In a tall glass, layer sweetened beans, nata de coco, and kaong.",
+            "Add jackfruit strips and ube halaya.",
+            "Fill glass with shaved ice.",
+            "Pour evaporated milk over ice.",
+            "Top with leche flan slice.",
+            "Sprinkle with pinipig or cornflakes.",
+            "Serve immediately with a long spoon."
         ]
     },
     {
@@ -496,6 +578,16 @@
                 "item": "Salt and pepper",
                 "quantity": "To taste"
             }
+        ],
+        "steps": [
+            "In a pot, combine coconut milk, garlic, onion, and ginger.",
+            "Bring to a simmer over medium heat.",
+            "Add dried fish/shrimp if using.",
+            "Layer dried taro leaves on top (do not stir).",
+            "Pour coconut cream and add chili if using.",
+            "Simmer covered for 30-40 minutes or until leaves are tender.",
+            "Season with salt and pepper.",
+            "Gently stir before serving."
         ]
     },
     {
@@ -539,6 +631,15 @@
                 "item": "Cooking oil",
                 "quantity": "For frying"
             }
+        ],
+        "steps": [
+            "Mix ground pork, carrots, onion, garlic, and seasonings.",
+            "Place a portion of filling on each wrapper.",
+            "Roll tightly, sealing edges with water.",
+            "Heat oil in a deep pan.",
+            "Fry lumpia until golden brown.",
+            "Drain on paper towels.",
+            "Serve hot with sweet chili sauce."
         ]
     },
     {
@@ -584,6 +685,15 @@
                 "item": "Peanut sauce",
                 "quantity": "To serve"
             }
+        ],
+        "steps": [
+            "Sauté garlic and onions, add vegetables and tofu.",
+            "Cook until vegetables are tender-crisp.",
+            "Season with salt and pepper.",
+            "Let filling cool.",
+            "Place lettuce leaf on lumpia wrapper.",
+            "Add filling and roll tightly.",
+            "Serve with peanut sauce."
         ]
     },
     {
@@ -624,6 +734,15 @@
                 "item": "Cooking oil",
                 "quantity": "2 tbsp"
             }
+        ],
+        "steps": [
+            "Marinate beef in soy sauce and calamansi juice for 30 minutes.",
+            "Heat oil in a pan. Cook beef until browned.",
+            "Remove beef and set aside.",
+            "In the same pan, cook onion rings until soft.",
+            "Return beef to pan and add remaining marinade.",
+            "Simmer until sauce is reduced.",
+            "Serve hot with rice."
         ]
     },
     {
@@ -669,6 +788,16 @@
                 "item": "Salt and pepper",
                 "quantity": "To taste"
             }
+        ],
+        "steps": [
+            "Sauté garlic and onion in oil.",
+            "Add pork and cook until browned.",
+            "Pour in vinegar and simmer without stirring.",
+            "Add pork blood, stirring constantly to prevent curdling.",
+            "Add bay leaf and chili peppers if using.",
+            "Simmer until sauce thickens.",
+            "Season with salt and pepper.",
+            "Serve hot with puto (rice cakes)."
         ]
     },
     {
@@ -709,6 +838,16 @@
                 "item": "Banana leaves",
                 "quantity": "For lining"
             }
+        ],
+        "steps": [
+            "Line a cake pan or bibingka mold with banana leaves.",
+            "Mix rice flour, sugar, and baking powder in a bowl.",
+            "In another bowl, beat eggs then add coconut milk.",
+            "Combine wet and dry ingredients, mix until smooth.",
+            "Pour batter into lined pan.",
+            "Top with salted egg slices and cheese if using.",
+            "Bake at 375°F for 20-25 minutes until golden brown.",
+            "Brush with butter and serve warm."
         ]
     },
     {
@@ -750,6 +889,16 @@
                 "item": "Bagoong (fermented shrimp paste)",
                 "quantity": "2 tbsp"
             }
+        ],
+        "steps": [
+            "Heat oil in a pan and sauté garlic and onions until fragrant.",
+            "Add tomatoes and cook until softened.",
+            "Add bagoong and stir to combine.",
+            "Add squash and cook for 5 minutes.",
+            "Add remaining vegetables except for bitter melon.",
+            "Add bitter melon last and cook until all vegetables are tender.",
+            "Season with salt and pepper to taste.",
+            "Serve hot with rice."
         ]
     },
     {
@@ -788,6 +937,15 @@
                 "quantity": "Optional",
                 "notes": "For traditional form"
             }
+        ],
+        "steps": [
+            "Mix ground pork with all seasonings until well combined.",
+            "If using casings, stuff the mixture into them.",
+            "If making skinless longganisa, form into small logs.",
+            "Refrigerate overnight to develop flavors.",
+            "To cook, place in a pan with a little water.",
+            "Let water evaporate then fry in its own oil until browned.",
+            "Serve with garlic rice and fried egg."
         ]
     },
     {
@@ -832,6 +990,15 @@
                 "item": "Water",
                 "quantity": "Enough to cover meat"
             }
+        ],
+        "steps": [
+            "In a large pot, bring water to boil with beef shanks.",
+            "Simmer for 2-3 hours or until meat is tender.",
+            "Add corn and cook for 10 minutes.",
+            "Add potatoes and cook until tender.",
+            "Add cabbage and cook until just wilted.",
+            "Season with fish sauce and pepper.",
+            "Serve hot in bowls with rice on the side."
         ]
     },
     {
@@ -876,6 +1043,16 @@
                 "item": "Calamansi or lemon",
                 "quantity": "For serving"
             }
+        ],
+        "steps": [
+            "Sauté ginger, garlic, and onion until fragrant.",
+            "Add chicken pieces and cook until lightly browned.",
+            "Add rice and stir to coat with oil.",
+            "Pour in water or chicken broth and bring to boil.",
+            "Reduce heat and simmer until rice is very soft and porridge-like.",
+            "Season with fish sauce and pepper.",
+            "Top with toasted garlic, green onions, and egg.",
+            "Serve hot with calamansi."
         ]
     },
     {

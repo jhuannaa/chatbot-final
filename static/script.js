@@ -1,4 +1,4 @@
- function toggleChat() {
+function toggleChat() {
       const chatWindow = document.getElementById("chatWindow");
       chatWindow.style.display = chatWindow.style.display === "flex" ? "none" : "flex";
     }
@@ -264,3 +264,161 @@
         console.error("Error loading chat history", err);
       }
     }
+
+    function createRecipeCard(recipe) {
+        const card = document.createElement('div');
+        card.className = 'recipe-card';
+        
+        card.innerHTML = `
+            <img src="/static/images/${recipe.image}" alt="${recipe.recipe_name}">
+            <div class="recipe-card-title">${recipe.recipe_name}</div>
+            <div class="recipe-card-content">
+                <div class="recipe-details">
+                    <h3>${recipe.recipe_name}</h3>
+                    <div class="recipe-ingredients">
+                        <h4>Ingredients:</h4>
+                        <ul>
+                            ${recipe.ingredients.map(ing => `
+                                <li>${ing.quantity} ${ing.item}${ing.notes ? ` (${ing.notes})` : ''}</li>
+                            `).join('')}
+                        </ul>
+                    </div>
+                    <div class="recipe-instructions">
+                        <h4>Instructions:</h4>
+                        <ol>
+                            ${recipe.instructions ? recipe.instructions.map(step => `
+                                <li>${step}</li>
+                            `).join('') : '<li>Instructions not available</li>'}
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        `;
+
+        // Toggle card expansion on click
+        card.addEventListener('click', (e) => {
+            // Don't toggle if clicking inside the content when expanded
+            if (card.classList.contains('expanded') && 
+                e.target.closest('.recipe-card-content') && 
+                !e.target.closest('.recipe-close')) {
+                return;
+            }
+            
+            // Close any other expanded cards
+            document.querySelectorAll('.recipe-card.expanded').forEach(expandedCard => {
+                if (expandedCard !== card) {
+                    expandedCard.classList.remove('expanded');
+                }
+            });
+            
+            // Toggle current card
+            card.classList.toggle('expanded');
+        });
+
+        return card;
+    }
+
+    // Update the DOMContentLoaded event listener
+document.addEventListener('DOMContentLoaded', function() {
+    const searchBar = document.getElementById('searchBar');
+    const searchButton = document.getElementById('searchButton');
+
+    function performSearch() {
+        // Get search text and remove existing highlights
+        const searchText = searchBar.value.toLowerCase().trim();
+        removeHighlights();
+
+        if (searchText.length < 2) return; // Minimum 2 characters to search
+
+        const recipeCards = document.querySelectorAll('.recipe-card');
+        let firstMatch = null;
+        let found = false;
+
+        recipeCards.forEach(card => {
+            // Check both title and content
+            const titleElement = card.querySelector('.recipe-card-title');
+            const contentElement = card.querySelector('.recipe-card-content');
+            
+            const titleText = titleElement.textContent.toLowerCase();
+            const contentText = contentElement.textContent.toLowerCase();
+
+            if (titleText.includes(searchText) || contentText.includes(searchText)) {
+                found = true;
+                if (!firstMatch) {
+                    firstMatch = card;
+                }
+
+                // Highlight matches
+                if (titleText.includes(searchText)) {
+                    highlightText(titleElement, searchText);
+                }
+                if (contentText.includes(searchText)) {
+                    highlightText(contentElement, searchText);
+                }
+
+                // Show the content if it contains the match
+                if (contentText.includes(searchText)) {
+                    card.classList.add('expanded');
+                }
+            }
+        });
+
+        // Scroll to first match
+        if (firstMatch) {
+            firstMatch.scrollIntoView({
+                behavior: 'smooth',
+                block: 'center'
+            });
+            // Add pulse animation
+            firstMatch.classList.add('found');
+            setTimeout(() => {
+                firstMatch.classList.remove('found');
+            }, 2000);
+        }
+    }
+
+    function removeHighlights() {
+        document.querySelectorAll('.highlight').forEach(el => {
+            const parent = el.parentNode;
+            parent.replaceChild(document.createTextNode(el.textContent), el);
+            parent.normalize();
+        });
+        document.querySelectorAll('.recipe-card.expanded').forEach(card => {
+            card.classList.remove('expanded');
+        });
+    }
+
+    function highlightText(element, searchText) {
+        const innerHTML = element.innerHTML;
+        const text = element.textContent;
+        const index = text.toLowerCase().indexOf(searchText.toLowerCase());
+        
+        if (index >= 0) {
+            const before = text.substring(0, index);
+            const match = text.substring(index, index + searchText.length);
+            const after = text.substring(index + searchText.length);
+            element.innerHTML = `${before}<span class="highlight">${match}</span>${after}`;
+        }
+    }
+
+    // Event Listeners
+    searchButton.addEventListener('click', performSearch);
+    
+    searchBar.addEventListener('keypress', function(e) {
+        if (e.key === 'Enter') {
+            performSearch();
+        }
+    });
+
+    // Real-time search with debounce
+    searchBar.addEventListener('input', debounce(performSearch, 300));
+});
+
+// Debounce helper function
+function debounce(func, wait) {
+    let timeout;
+    return function(...args) {
+        clearTimeout(timeout);
+        timeout = setTimeout(() => func.apply(this, args), wait);
+    };
+}

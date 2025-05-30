@@ -7,7 +7,7 @@
   <title>COOKINGCHUCHUCHU</title>
   <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}" />
   <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=account_circle" />
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <script src="https://kit.fontawesome.com/7a0c9e3170.js" crossorigin="anonymous"></script>
 
 </head>
@@ -15,6 +15,12 @@
 <body id="main-container">
   <header>
     <div class="logo">Cook<span>Mate</span></div>
+    <div class="search-container">
+      <input type="text" id="searchBar" class="search-bar" placeholder="Search recipes...">
+      <button id="searchButton" class="search-button">
+        <span class="material-symbols-outlined">search</span>
+      </button>
+    </div>
     <nav>
       <div class="user-menu">
         <i class="fa-solid fa-user user-icon" onclick="toggleDropdown()"></i>
