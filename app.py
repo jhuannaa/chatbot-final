@@ -7,7 +7,7 @@ from werkzeug.security import generate_password_hash, check_password_hash
 app = Flask(__name__)
 app.secret_key = 'your_secret_key_here'
 
-OPENROUTER_API_KEY = "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"
+OPENROUTER_API_KEY = "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"
 DATABASE = 'users.db'
 
 def get_db():
